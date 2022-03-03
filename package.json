@@ -1,0 +1,28 @@
+{
+  "name": "hooks-vue-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "hooks dev",
+    "build": "hooks build",
+    "start": "hooks start",
+    "check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "isomorphic-unfetch": "^3.1.0",
+    "@midwayjs/core": "3.0.13",
+    "@midwayjs/decorator": "^3.0.10",
+    "@midwayjs/hooks": "^3.0.0-rc.8",
+    "@midwayjs/hooks-kit": "^3.0.0-rc.10",
+    "@midwayjs/koa": "^3.0.13",
+    "@midwayjs/rpc": "^3.0.0-rc.10",
+    "zod": "^3.13.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "vue-tsc": "^0.32.1",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6"
+  }
+}
